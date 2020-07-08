@@ -3,5 +3,14 @@
     border-color: mediumaquamarine;
 }
 .head {
+    text-align: center;
+    border: 5px;
+    outline: 5px;
+    outline-offset: 10px;
     background-color: skyblue;
+
+}
+.p {
+    position: absolute;
+    background-image: "https://s23209.pcdn.co/wp-content/uploads/2014/03/IMG_2694edit-1.jpg";
 }
