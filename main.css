@@ -1,1 +1,7 @@
-#hello
+.ingredients {
+    border-style: groove;
+    border-color: mediumaquamarine;
+}
+.head {
+    background-color: skyblue;
+}
