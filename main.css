@@ -2,6 +2,15 @@
     border-style: groove;
     border-color: mediumaquamarine;
 }
-.head {
+.head {    
+    width: 250px;
+    height: 20px;
+    margin: 5px;
+    padding: 25px;
+    outline: 10px darkblue;
+    outline-style: dashed;
+    outline-offset: 5px;
+    border: 15px orange; 
+    border-style: dotted;  
     background-color: skyblue;
 }
