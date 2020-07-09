@@ -21,3 +21,16 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+
+.slide{
+    width: 100px;
+    height: 100px;
+    position :relative; 
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0% {top: 0px; left: 0px;}
+    50% {top: 200px; left: 50px;}
+    75% {top: 200px; left: 100px;}
+    100% {top: 0px; left: 100px;}
+}
