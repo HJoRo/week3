@@ -2,6 +2,7 @@
     border-style: groove;
     border-color: mediumaquamarine;
 }
+
 .head {    
     width: 250px;
     height: 20px;
@@ -13,4 +14,8 @@
     border: 15px orange; 
     border-style: dotted;  
     background-color: skyblue;
+}
+.p {
+    position: absolute;
+    background-image: "https://s23209.pcdn.co/wp-content/uploads/2014/03/IMG_2694edit-1.jpg";
 }
