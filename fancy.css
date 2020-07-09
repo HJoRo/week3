@@ -1,1 +1,23 @@
-fancy
+.namebut {
+    color: cornflowerblue;
+    background-color: black;
+}
+.namebut:hover {
+    background-color: lightpink;
+    color: darkgreen;
+}
+.colorbut {
+    background-color: cornflowerblue;
+    color: black;
+}
+@keyframes lastbutton {
+    from {background-color: black;}
+    to {background-color: darkred;}
+}
+.comments {
+    background-color: black;
+    color: cornflowerblue;
+    animation-name: lastbutton;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
