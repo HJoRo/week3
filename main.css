@@ -19,3 +19,25 @@
     position: absolute;
     background-image: "https://s23209.pcdn.co/wp-content/uploads/2014/03/IMG_2694edit-1.jpg";
 }
+img {
+    width: 50vh;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: width 1s;
+}
+img:hover {
+    width: 45vh;
+}
+.row {
+    display: flex;
+}
+.container {
+    flex:50%;
+}
+@media only screen and (max-width:600px){
+    .column{
+        display: none;
+    }
+}
